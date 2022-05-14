@@ -61,7 +61,7 @@ public class MainMenu {
 	public void visitSite() {
 		try {
 			 Desktop desktop = java.awt.Desktop.getDesktop();
-			  URI oURL = new URI("http://www.neehaw.com");
+			  URI oURL = new URI("");
 			  desktop.browse(oURL);
 		} catch (IOException | URISyntaxException e) {
 			e.printStackTrace();
