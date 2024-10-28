@@ -16,8 +16,7 @@ import parts.Paddle;
 
 public class MainMenu {
 
-	private Rectangle[] bounds = {new Rectangle(65, 295, 210, 45),
-								  new Rectangle(65, 345, 210, 45)};
+	private Rectangle[] bounds = {new Rectangle(65, 295, 210, 45),new Rectangle(65, 345, 210, 45)};
 	private Image titleScreenForeground;
 	private Image titleScreenBackground;
 	private Paddle paddle;
@@ -25,11 +24,11 @@ public class MainMenu {
 	private Brick[] bricks;
 	
 	private int[][] gridPos =  {{7, 7, 7, 7, 7, 7, 7, 7},
-								{6, 6, 6, 6, 6, 6, 6, 6},
-								{5, 5, 5, 5, 5, 5, 5, 5},
-								{4, 4, 4, 4, 4, 4, 4, 4},
-								{3, 3, 3, 3, 3, 3, 3, 3},
-								{2, 2, 2, 2, 2, 2, 2, 2}};
+				    {6, 6, 6, 6, 6, 6, 6, 6},
+				    {5, 5, 5, 5, 5, 5, 5, 5},
+				    {4, 4, 4, 4, 4, 4, 4, 4},
+				    {3, 3, 3, 3, 3, 3, 3, 3},
+				    {2, 2, 2, 2, 2, 2, 2, 2}};
 	
 	public MainMenu() {
 		titleScreenForeground = new ImageLoader(ImageLoader.titleForeground).getImage();
